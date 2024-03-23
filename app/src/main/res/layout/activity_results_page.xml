@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allanime"
+    tools:context=".Results_Page">
+
+    <TextView
+        android:id="@+id/textViewWrong"
+        android:layout_width="168dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="34dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="INCORRECT"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textViewWC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCrrct" />
+
+    <TextView
+        android:id="@+id/textViewWC"
+        android:layout_width="113dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="66dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewWrong"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRC" />
+
+    <TextView
+        android:id="@+id/textViewRC"
+        android:layout_width="113dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="66dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textViewCrrct"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="300dp"
+        android:layout_height="263dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/itadoripng" />
+
+    <TextView
+        android:id="@+id/textViewCrrct"
+        android:layout_width="168dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="29dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="CORRECT"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textViewRC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <Button
+        android:id="@+id/buttonplayagain"
+        android:layout_width="132dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="55dp"
+        android:background="@color/design_default_color_primary"
+        android:text="PLAY AGAIN"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonExit"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="132dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="55dp"
+        android:background="@color/design_default_color_primary"
+        android:text="EXIT"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWC" />
+</androidx.constraintlayout.widget.ConstraintLayout>

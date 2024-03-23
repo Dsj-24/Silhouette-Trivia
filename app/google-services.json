@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "715909081349",
+    "project_id": "silhouette-trivia",
+    "storage_bucket": "silhouette-trivia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715909081349:android:d48e8914441fb634de6f6c",
+        "android_client_info": {
+          "package_name": "com.company.silhouettetrivia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715909081349-id1p2osu3njps6k41kdonvjglgm9ei9v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.company.silhouettetrivia",
+            "certificate_hash": "db0c9d2185633223889dbb96795c749750d155cd"
+          }
+        },
+        {
+          "client_id": "715909081349-93iovtafl1k1nl9g4mk342gj5dd29oal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpkdInQVUdVSvyZkgJy8wNIquOPhmi0Yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715909081349-93iovtafl1k1nl9g4mk342gj5dd29oal.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
